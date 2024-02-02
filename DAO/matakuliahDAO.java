@@ -38,10 +38,8 @@ public class matakuliahDAO {
 
     @FXML
     void initialize() {
-        // Inisialisasi ChoiceBox dengan daftar mata kuliah
         mataKuliahChoiceBox.getItems().addAll("Pmrograman interpreter 1", "Pemrograman Berioentasi Object 2", "DAA 3", "PSD 4");
 
-        // Inisialisasi nilai default
         mataKuliahChoiceBox.setValue("Pemograman interpreter 1");
 
     }
