@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DAO.ruanganDAO">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="208.0" style="-fx-background-color: #6699FF;">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="119.0" layoutX="47.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconpengguna-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="menuUser" layoutX="70.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User" textAlignment="CENTER" wrappingWidth="67.21052551269531">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="231.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ruang Kelas">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="231.0" layoutY="92.0" prefHeight="65.0" prefWidth="287.0" style="-fx-background-color: #dedcdd;">
+         <children>
+            <Text layoutX="17.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gik L1 C " />
+            <Text layoutX="17.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kosong" />
+            <AnchorPane layoutX="187.0" layoutY="20.0" prefHeight="22.0" prefWidth="86.0" style="-fx-background-color: #9cef4b;">
+               <children>
+                  <Text layoutX="20.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tersedia" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="231.0" layoutY="186.0" prefHeight="65.0" prefWidth="287.0" style="-fx-background-color: #dedcdd;">
+         <children>
+            <Text layoutX="18.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gik L2" />
+            <Text layoutX="19.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desain Analisis Algoritma" />
+            <AnchorPane layoutX="187.0" layoutY="19.0" prefHeight="22.0" prefWidth="86.0" style="-fx-background-color: #fdcdb3;">
+               <children>
+                  <Text fill="#ee703a" layoutX="15.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digunakan" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="BtnBack" layoutX="443.0" layoutY="332.0" mnemonicParsing="false" onAction="#SendBack" prefHeight="25.0" prefWidth="75.0" text="BACK" />
+   </children>
+</AnchorPane>

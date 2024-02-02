@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DAO.menusiakaduDAO">
+   <children>
+      <AnchorPane prefHeight="411.0" prefWidth="280.0" style="-fx-background-color: #4adcf8;">
+         <children>
+            <ImageView fitHeight="96.0" fitWidth="104.0" layoutX="90.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@iconpengguna-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="menuUser" layoutX="100.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User" textAlignment="CENTER" wrappingWidth="84.21052551269531">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome,">
+               <font>
+                  <Font name="Bell MT Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="284.0" layoutY="4.0" prefHeight="406.0" prefWidth="392.0">
+         <children>
+            <ImageView fitHeight="225.0" fitWidth="466.0" layoutX="-6.0" layoutY="-9.0" pickOnBounds="true">
+               <image>
+                  <Image url="@bagroundpendidikan.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="334.0" layoutY="236.0" prefHeight="59.0" prefWidth="104.0" style="-fx-background-color: #4adcf8;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="50.0" layoutX="35.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icondosen-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="236.0" prefHeight="59.0" prefWidth="104.0" style="-fx-background-color: #4adcf8;">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="104.0" layoutX="10.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Bagaimana-Memilih-Mata-Pelajaran-Opsional-dan-Mengapa-Sosiologi-Lebih-Aman-1056x627.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="181.0" layoutY="236.0" prefHeight="59.0" prefWidth="104.0" style="-fx-background-color: #4adcf8;">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="27.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@College-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="matakuliah" layoutX="14.0" layoutY="304.0" mnemonicParsing="false" onAction="#Sendmatakuliah" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #056df2;" text="Mata Kuliah" textFill="#f8f7f7">
+               <font>
+                  <Font name="Verdana Bold" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="menuRuangan" layoutX="181.0" layoutY="304.0" mnemonicParsing="false" onAction="#SendRuangan" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #056df2;" text="Ruangan" textFill="#f8f7f7">
+               <font>
+                  <Font name="Verdana Bold" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="menuNamaDosen" layoutX="334.0" layoutY="304.0" mnemonicParsing="false" onAction="#menuNamaDosen" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #056df2;" text="Nama Dosen" textFill="#f8f7f7">
+               <font>
+                  <Font name="Verdana Bold" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
